@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Study Tracker</title>
+    </head>
+    <body>
+        <header class="is-fixed-above-lg">
+            <div class="container"">
+                <nav>
+                    <ul>
+                        <li><h1>Study Tracker</h1></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#course-units">Course Units</a></li>
+                        <li><a href="#assessments">Assessments</a></li>
+                        <li><a href="#study-sessions">Study Sessions</a></li>
+                    </ul>
+                    <ul class="icons">
+                        <a class="contrast">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="currentColor" class="icon-theme-toggle"></svg>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section id="course-units">
+                <h2>Course Units</h2>
+                <div class="card">
+                    <h3>Example Course Unit</h3>
+                    <p>Year: 2024, Semester: First</p>
+                    <p>Minutes Studied: 120</p>
+                    <button class="btn btn-secondary">Remove</button>
+                </div>
+                <!-- More course units will be dynamically populated here -->
+            </section>
+            <section id="assessments">
+                <h2>Assessments</h2>
+                <div class="card">
+                    <h3>Practical Assignment 1</h3>
+                    <p>Hours Spent: 10</p>
+                    <button class="btn btn-secondary">Remove</button>
+                </div>
+                <!-- More assessments will be dynamically populated here -->
+            </section>
+            <section id="study-sessions">
+                <h2>Study Sessions</h2>
+                <div class="card">
+                    <h3>Session 1</h3>
+                    <p>Date: 2024-04-01, Start Time: 09:00, Duration: 90 minutes</p>
+                    <button class="btn btn-secondary">Remove</button>
+                </div>
+                <!-- More study sessions will be dynamically populated here -->
+            </section>
+        </main>
+
+        <footer class="container">
+            <p>&copy; 2024 Study Tracker</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>

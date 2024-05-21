@@ -1,0 +1,29 @@
+== Objectives
+
+Develop a system that allows "managing" the time spent studying/working on assignments according to the requirements below.
+
+== Requirements
+
+* [ ] [R1]On the initial page, a list of course units should appear.
+* [ ] [R2]For each course unit, the name, year, semester, and the number of minutes already spent studying/working for that course unit should be displayed.
+    - [ ] [R3]For each course unit, there should also be some kind of button to remove that course unit, along with all associated information.
+    - [ ] [R4]On the main page, it should be possible to add a new course unit to the list (name, year, and semester).
+* [ ] [R5]When clicking on the name of a course unit, a list of assessments (e.g. Practical Assignment 1, Test 1, ...) should appear.
+    - [ ] [R6]For each item in the list, the name and the number of hours spent studying/working for that assessment should be displayed.
+    - [ ] [R7]For each assessment, there should also be some kind of button to remove that assessment, along with all associated information.
+    - [ ] [R8]It should also be possible to add a new assessment (name).
+    - [ ] [R9]Somewhere at the top of the page, the name of the selected course unit should appear.
+* [ ] [R10]When clicking on the name of an assessment, a list of time periods spent studying/working for that particular assessment should appear.
+    - [ ] [R11]For each item in the list, the date, start time, and duration (e.g. 2024-05-02 – 12:30 (45 minutes)) should be displayed.
+    - [ ] [R12]For each time period, there should also be some kind of button to remove that record.
+    - [ ] [R13]It should also be possible to add a new record (day, start time, and duration).
+    - [ ] [R14]Somewhere at the top of the page, the name of the selected course unit and assessment should appear.
+* [ ] [R15]Whenever removing anything, a confirmation box should always be displayed.
+* [ ] [R16]The data for the course units must be stored and manipulated in the form of objects and persistently stored using localStorage.
+* [ ] [R17]All data fields are mandatory.
+
+== What I will be using
+
+* HTML
+* PicoCSS (CSS framework)
+* JavaScript (vanilla)

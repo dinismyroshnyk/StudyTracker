@@ -1,0 +1,31 @@
+@keyframes jumpOut {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes jumpIn {
+    0% {
+        transform: translateY(-100%);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.icon-theme-toggle.jumpOut {
+    animation: jumpOut 0.5s forwards;
+}
+
+.icon-theme-toggle.jumpIn {
+    animation: jumpIn 0.5s forwards;
+}
